@@ -11,6 +11,14 @@
 
 /* Shared CSS Starts */
 
+.card-btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0D1321B3;
+    background-color: transparent;
+    border: 1px solid #0D1321B3;
+}
 
 /* Shared CSS Ends */
 
@@ -40,7 +48,6 @@
 /* ------------------------------------------------------------------------- */
 
 /* Banner Section Starts */
-
 .banner-main{
     width: 100%;
     height: 100vh;
@@ -59,7 +66,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
     /* border: 2px solid green; */
 }
 
@@ -73,7 +80,7 @@
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
-
+    
 }
 
 .banner-content p{
@@ -88,5 +95,69 @@
     color: white;
     padding: 17px 22px;
 }
-
 /* Banner Section Ends */
+
+/* ------------------------------------------------------------------------- */
+
+/* Why Web Development Section Starts */
+.why-web-development-main{
+    margin: auto;
+    width: 1140px;
+    height: 1350px;
+    margin-top: 150px;
+    background-color: #0D132105;
+    border-radius: 15px;
+    /* border: 2px solid blue; */
+}
+
+.why-web-development-main h2{
+    font-size: 28px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 25px;
+}
+
+.why-web-development-main p{
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 50px;
+}
+
+.why-web-development-content{
+    margin: auto;
+    width: 950px;
+    height: 1050px;
+    /* border: 2px solid lawngreen; */
+}
+
+.why-web-development-content .heading{
+    text-align: center;
+}
+
+.card-content > h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D1321B3;
+    margin-bottom: 25px;
+}
+
+.card-content > p{
+    font-size: 16px;
+    color: #0D1321B3;
+    margin-bottom: 70px;
+}
+
+.card-1, .card-2, .card-3{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 90px;
+    padding: 40px;
+    background-color: white;
+    margin-bottom: 30px;
+    /* border: 2px orange solid; */
+}
+
+.card-2{
+    padding-right: 100px;
+}
+/* Why Web Development Section Ends */
