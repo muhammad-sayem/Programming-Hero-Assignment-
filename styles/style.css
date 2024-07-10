@@ -301,11 +301,65 @@
 /* Need Support Secction Starts */
 
 .need-support-main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: auto;
     width: 1140px;
-    height: 300px;
-    border: 2px orange solid;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    /* border: 2px orange solid; */
 }
 
+.need-support-content{
+    width: 980px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    /* border: 2px white solid; */
+}
+
+.need-support-content > .heading{
+    text-align: center;
+}
+
+.need-support-content > .heading > h2{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.need-support-content > .heading > p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.submit-box{
+    margin: auto;
+    text-align: center;    
+    /* border: 4px solid orange; */
+}
+
+.submit-box input{
+    width: 550px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.submit-box button{
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
 
 /* Need Support Secction Ends */
