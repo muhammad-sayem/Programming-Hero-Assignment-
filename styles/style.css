@@ -103,8 +103,18 @@
     background-color: #0D1321;
     border: none;
     border-radius: 8px;
-    color: white;
     padding: 17px 22px;
+}
+
+.banner-content button:hover{
+    cursor: pointer;
+}
+
+.banner-content button > a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
 }
 /* Banner Section Ends */
 
@@ -115,8 +125,8 @@
     margin: auto;
     width: 1140px;
     height: 1220px;
-    margin-top: 150px;
-    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     background-color: #0D132105;
     border-radius: 15px;
     padding-bottom: 80px;
@@ -223,7 +233,7 @@
     margin: auto;
     width: 1140px;
     height: 500px;
-    margin-bottom: 130px;
+    margin-bottom: 20px;
     border-radius: 15px;
     padding-bottom: 80px;
     /* border: 2px solid yellowgreen; */
@@ -304,14 +314,16 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/handshake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     margin: auto;
     width: 1140px;
-    height: 60vh;
+    height: 314px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     margin-bottom: 70px;
+    
     /* border: 2px orange solid; */
 }
 
@@ -354,7 +366,7 @@
 }
 
 .submit-box button{
-    padding: 20px;
+    padding: 18px;
     background-color: white;
     font-size: 20px;
     font-weight: 600;
@@ -362,4 +374,31 @@
     border-radius: 10px;
 }
 
+.submit-box button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
 /* Need Support Secction Ends */
+
+/* ----------------------------------------------------------------------------- */
+
+/* Footer Section Starts */
+
+#footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 250px;
+    /* border: 2px solid blue; */
+}
+
+.footer-social > a{
+    text-decoration: none;
+}
+
+/* Footer Section Ends */
