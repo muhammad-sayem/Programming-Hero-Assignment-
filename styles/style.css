@@ -18,10 +18,6 @@
     border: 1px solid #0D1321B3;
 }
 
-.card-btn:hover{
-    cursor: pointer;
-}
-
 .card-btn > a{
     color: #0D1321B3;
     text-decoration: none;
@@ -104,10 +100,6 @@
     border: none;
     border-radius: 8px;
     padding: 17px 22px;
-}
-
-.banner-content button:hover{
-    cursor: pointer;
 }
 
 .banner-content button > a{
@@ -374,12 +366,6 @@
     border-radius: 10px;
 }
 
-.submit-box button:hover{
-    cursor: pointer;
-    background-color: black;
-    color: white;
-    border: 2px solid white;
-}
 /* Need Support Secction Ends */
 
 /* ----------------------------------------------------------------------------- */
