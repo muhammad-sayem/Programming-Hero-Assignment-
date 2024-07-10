@@ -102,7 +102,7 @@
     padding: 17px 22px;
 }
 
-.banner-content button > a{
+.banner-content a > button{
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -176,12 +176,11 @@
 
 /* -------------------------------------------------------------------- */
 /* My inspiration section Starts */
-
 .my-inspiration-main{
     margin: auto;
     width: 1140px;
     height: 700px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     border-radius: 15px;
     padding-bottom: 80px;
     /* border: 2px solid blue; */
